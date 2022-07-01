@@ -16,14 +16,14 @@ app.use(
         'status code:',
         err.statusCode,
         'message:',
-        err.message,
+        err.message
       );
       return response.status(err.statusCode).json({ message: err.message });
     }
 
     console.log('>', err.message);
     return response.status(500).json({ message: 'Internal Server Error' });
-  },
+  }
 );
 
 export default app;

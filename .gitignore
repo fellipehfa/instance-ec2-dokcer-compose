@@ -16,6 +16,7 @@ yarn.lock
 # IDEs and editors
 *.launch
 .settings/
+.vscode
 
 # Environment
 .env

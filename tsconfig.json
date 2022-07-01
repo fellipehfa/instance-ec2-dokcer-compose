@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "lib": [
+      "es5",
+      "es6"
+    ],
     "module": "commonjs",
+    "moduleResolution": "node",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
@@ -10,6 +15,7 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "sourceMap": true
   }
 }
